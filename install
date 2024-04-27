@@ -93,22 +93,22 @@ echo -e "\n"
 apt-get clean
 apt-get update >/dev/null 2>&1
 apt-get -y --with-new-pkgs -o Dpkg::Options::="--force-confdef" upgrade >/dev/null 2>&1
-pkg install x11-repo -y &>/dev/null
-pkg install pulseaudio -y &>/dev/null
-pkg install wget -y &>/dev/null
-pkg install root-repo -y &>/dev/null
-pkg install termux-x11-nightly -y &>/dev/null
-pkg install x11-repo &>/dev/null
-pkg install termux-x11-nightly &>/dev/null
-pkg install pulseaudio &>/dev/null
-pkg install xfce4 &>/dev/null
-pkg install tur-repo &>/dev/null
-pkg install xwayland -y &>/dev/null
-pkg install xorg-xrandr -y &>/dev/null
-pkg install p7zip -y &>/dev/null
-pkg install patchelf -y &>/dev/null
-pkg install ncurses-utils -y &>/dev/null
-pkg install hashdeep -y &>/dev/null
+pkg install x11-repo -y
+pkg install pulseaudio -y
+pkg install wget -y
+pkg install root-repo -y
+pkg install termux-x11-nightly -y
+pkg install x11-repo
+pkg install termux-x11-nightly
+pkg install pulseaudio
+pkg install xfce4
+pkg install tur-repo
+pkg install xwayland -y
+pkg install xorg-xrandr -y
+pkg install p7zip -y
+pkg install patchelf -y
+pkg install ncurses-utils -y
+pkg install hashdeep -y
 
 echo -n "Boxvidra Emulator Packages Installed Successfuly"
 echo -e "\n"
